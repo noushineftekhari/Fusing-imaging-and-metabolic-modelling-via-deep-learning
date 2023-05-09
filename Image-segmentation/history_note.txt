@@ -1,0 +1,8 @@
+
+
+
+model 4:
+maximum = np.percentile(data, 97.5)
+
+model 6:
+maximum = np.max(data)
