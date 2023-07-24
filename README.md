@@ -4,7 +4,7 @@ This code is part of the repository contains the code and data to reproduce the 
 
 
 
-<img style="width: 720px; alignment: center" src="Data/Fig1-pipeline.pdf">
+<img style="width: 720px; alignment: center" src="Data/Fig1-pipeline.png">
 
 
 
