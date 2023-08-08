@@ -7,8 +7,8 @@ This code is part of the repository contains the code and data to reproduce the 
 <img style="width: 720px; alignment: center" src="Data/Fig1-pipeline.png">
 
 
-#How to run
-##
+
+
 ## Steps to run the proposed U-net models for ovarian cancer prediction
 Training: Run [train/train.py.py]
 
