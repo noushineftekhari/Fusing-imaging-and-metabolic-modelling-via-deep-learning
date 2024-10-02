@@ -16,6 +16,15 @@
         <p>By Noushin Eftekhari, Aninda Saha, Suraj Verma, Guido Zampieri, Saladin Sawan, Annalisa Occhipinti, Claudio Angione</p>
     </header>
 
+    <!-- Section: Figure -->
+    <section class="section">
+        <div class="container">
+            <img src="Data/Fig1-pipeline.png" alt="Patient-specific fluxomic and radiomics machine learning pipeline" style="max-width:100%; height:auto;">
+            <p><strong>Figure 1:</strong> The feature generation and feature augmentation consisted of the following two steps: (1.A) 3D patch tumours of unlabelled CT images were extracted using a U-Net architecture trained on 50 cancer patients with labelled CT images. (1.B) Integrating transcriptomics data in Genome-Scale Metabolic Modeling (GSMM) is one of the essential steps to estimate patient-specific models. Specifically, gene expression (GE) data is used as a constraint to create patient-specific models that simulate the corresponding patient metabolism.
+(2) Three deep learning models generated a latent data representation. This step included feature selection from GE and flux data (FD) data to reduce data dimensionality and design three deep neural networks  (DNNs) to integrate image data (IMG), GE and FD multi-modal datasets. (3) Finally, the patient-specific lower-dimensional features extracted from each modality were combined and fed into ML-based survival prediction models (i.e., RSF, CGBSurv, GBSurv, CoxPH, Coxnet, SurvSVM), which were evaluated using C-index and Kaplan-Meier (KM) curves.</p>
+        </div>
+    </section>
+
     <section id="highlights">
         <h2>Highlights</h2>
         <ul>
@@ -28,16 +37,10 @@
     <section id="abstract">
         <h2>Abstract</h2>
         <p>
-            Integrating heterogeneous data is crucial to elucidate the molecular bases of ovarian cancer. Measurements charting the relationship between genotype (e.g., transcriptomics), phenotype (e.g., imaging), and tumour microenvironment (e.g., metabolomics) are required for a full picture of tumour development. However, there is a lack of robust multimodal integration methods when only a limited number of common samples is available.
+            Integrating heterogeneous data is crucial to elucidate the molecular bases of ovarian cancer. Measurements charting the relationship between genotype (e.g., transcriptomics), phenotype (e.g., imaging), and tumour microenvironment (e.g., metabolomics) are required for a full picture of tumour development. However, there is a lack of robust multimodal integration methods when only a limited number of common samples is available. In this study, we generate patient-specific metabolic models starting from transcriptomics data and integrate the resulting flux rates (fluxomics) with imaging data. We show that this multi-modal integration -- never attempted before -- improves ovarian cancer survival estimation, while enabling a mechanistic interpretation of the predictions. To assess the robustness of our approach, we evaluate its accuracy with different combinations of transcriptomics, fluxomics, and computerised tomography (CT) imaging data, and predict patient survival. Generating and fusing flux rates with imaging and transcriptomics significantly improves model accuracy compared to widely used transcriptomics-imaging approaches, while also producing insights into critical metabolic reactions in ovarian cancer. Our approach is general and can be applied to other cancer types where coupled imaging-transcriptomics data is available.
         </p>
     </section>
 
-    <section id="introduction">
-        <h2>Introduction</h2>
-        <p>
-            Epithelial ovarian cancers (EOCs) have the highest mortality rate among gynaecological cancers in the developed world. EOCs include a heterogeneous group of neoplasms, including serous, clear cell, endometrioid, and mucinous types. Serous ovarian carcinomas include two types: high-grade serous and low-grade cancers. According to Cancer Research UK, ovarian cancer affects about 7400 women annually, with over 60% presenting advanced-stage disease.
-        </p>
-    </section>
 
     <!-- Add more sections as needed -->
 
