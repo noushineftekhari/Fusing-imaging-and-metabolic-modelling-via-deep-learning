@@ -71,7 +71,7 @@ jupyter notebook RNA_feature_vector.ipynb
 ## Image Segmentation
 
 ### Requirements
-
+```bash
 conda create -n ovarian_unet_py37 python=3.7
 conda activate ovarian_unet_py37
 
@@ -81,7 +81,7 @@ conda install tensorflow-estimator=2.1.0
 
 conda install tensorflow-mkl==2.1 (cpu version)
 pip install nibabel SimpleItk matplotlib tqdm
-
+```
 
 Training: 
 ```bash
