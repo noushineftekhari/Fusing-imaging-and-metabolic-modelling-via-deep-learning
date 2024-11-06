@@ -76,7 +76,11 @@ conda create -n ovarian_unet_py37 python=3.7
 conda activate ovarian_unet_py37
 
 conda install tensorflow-gpu==2.1
+```
 in case got error:
+
+```bash
+
 conda install tensorflow-estimator=2.1.0
 
 conda install tensorflow-mkl==2.1 (cpu version)
